@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEI-U</title>
+<style>
+
+    .table .row {
+        border-top: 1px solid black;
+        padding: 10px 0;
+    }
+    .table .header {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+    .req_title {
+        font-weight: bold;
+    }
+    .table .requirements {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+</style>
+
+</head>
+<body>
+    <h1>Projeto Baixa Visão</h1>
+    <div>Aqui será injetada a página REACT que o Guilherme fará.</div>
+    <div>Esta página é temporária. Tem como intuito apenas mostrar que o servidor já está com suas rotas funcionando, pronto para receber requisições do FronteEnd e de Aplicativo.</div>
+    <h2>Requisições</h2>
+    <div class="table">
+        <div class="row">
+            <div class="req_title">Requisição</div>
+            <div class="header">
+                <div>/login/auth</div><div>Requisição para login.</div>
+            </div>
+            <div class="req_title">Requisitos</div>
+            <div class="requirements">
+                <div>user:</div><div>Usuário</div>
+                <div>password:</div><div>Senha do usuário</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="req_title">Requisição</div>
+            <div class="header">
+                <div>/login/error</div><div>Página de erro na autenticação.</div>
+            </div>
+            <div class="req_title">Requisitos</div>
+            <div class="requirements">
+                <div>Nenhum.</div><div>Utilizado apenas pelo servidor.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="req_title">Requisição</div>
+            <div class="header">
+                <div>/operational/sendfile</div><div>Envia um arquivo.</div>
+            </div>
+            <div class="req_title">Requisitos</div>
+            <div class="requirements">
+                <div>File:</div><div>Arquivo a ser enviado</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="req_title">Requisição</div>
+            <div class="header">
+                <div>/operational/receivefile</div><div>Recebe um arquivo.</div>
+            </div>
+            <div class="req_title">Requisitos</div>
+            <div class="requirements">
+                <div>File</div><div>Arquivo a ser recebido</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="req_title">Requisição</div>
+            <div class="header">
+                <div>/operational/receivelib</div><div>Atualiza dados.</div>
+            </div>
+            <div class="req_title">Requisitos</div>
+            <div class="requirements">
+                <div>Nenhum.</div><div>Só chamar e aguardar resposta.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
